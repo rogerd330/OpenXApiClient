@@ -31,42 +31,42 @@ class ChannelInfo extends Info
      *
      * @var integer $channelId
      */
-    protected $channelId;
+    public $channelId;
 
     /**
      * This field contains the ID of the agency account.
      *
      * @var integer $agencyId
      */
-    protected $agencyId;
+    public $agencyId;
 
     /**
      * This field contains the ID of the publisher.
      *
      * @var integer $websiteId
      */
-    protected $websiteId;
+    public $websiteId;
 
     /**
      * The channelName variable is the name of the channel.
      *
      * @var string $channelName
      */
-    protected $channelName;
+    public $channelName;
 
     /**
      * The description variable is the description for the channel.
      *
      * @var string $description
      */
-    protected $description;
+    public $description;
 
     /**
      * The comments variable is the comment for the channel.
      *
      * @var string $comments
      */
-    protected $comments;
+    public $comments;
 
     /**
      * This method sets all default values when adding a new channel.

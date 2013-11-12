@@ -31,112 +31,112 @@ class BannerInfo extends Info
      *
      * @var integer $bannerId
      */
-    protected $bannerId;
+    public $bannerId;
 
     /**
      * The campaignID variable is the ID of the campaign associated with the banner.
      *
      * @var integer $campaignId
      */
-    protected $campaignId;
+    public $campaignId;
 
     /**
      * The bannerName variable is the name of the banner.
      *
      * @var integer $bannerName
      */
-    protected $bannerName;
+    public $bannerName;
 
     /**
      * The storageType variable is one of the following: 'sql','web','url','html',,'txt'.
      *
      * @var enum $storageType
      */
-    protected $storageType;
+    public $storageType;
 
     /**
      * The imageURL variable is the URL for an image file for network banners.
      *
      * @var string $imageURL
      */
-    protected $imageURL;
+    public $imageURL;
 
     /**
      * The htmlTemplate variable is the HTML template for HTML banners.
      *
      * @var text $htmlTemplate
      */
-    protected $htmlTemplate;
+    public $htmlTemplate;
 
     /**
      * The width variable contains the width of a banner.
      *
      * @var integer $width
      */
-    protected $width;
+    public $width;
 
     /**
      * The height variable contains the height of the banner.
      *
      * @var integer $height
      */
-    protected $height;
+    public $height;
 
     /**
      * This field provides the priority weight of the banner.
      *
      * @var integer $weight
      */
-    protected $weight;
+    public $weight;
 
     /**
      * This field provides the HTML target of the banner (e.g. _blank, _self)
      *
      * @var text $target
      */
-    protected $target;
+    public $target;
 
     /**
      * The url variable is the destination URL of the banner.
      *
      * @var text $url
      */
-    protected $url;
+    public $url;
 
     /**
      * This field provides the Text value of the text banner.
      *
      * @var string $bannerText
      */
-    protected $bannerText;
+    public $bannerText;
 
     /**
      * A boolean field to indicate if the banner is active
      *
      * @var int $status
      */
-    protected $status;
+    public $status;
 
     /**
      * A text field for HTML banners to indicate which adserver this ad is from
      *
      * @var string $adserver
      */
-    protected $adserver;
+    public $adserver;
 
     /**
      * This field provides transparency information for SWF banners
      *
      * @var boolean
      */
-    protected $transparent;
+    public $transparent;
 
     /**
      * Frequency capping: total views per user.
      *
      * @var integer $capping
      */
-    protected $capping;
+    public $capping;
 
     /**
      * Frequency capping: total views per period.
@@ -144,14 +144,14 @@ class BannerInfo extends Info
      *
      * @var integer $sessionCapping
      */
-    protected $sessionCapping;
+    public $sessionCapping;
 
     /**
      * Frequency capping: reset period, in seconds.
      *
      * @var integer $block
      */
-    protected $block;
+    public $block;
 
     /**
      * An array field for SQL/Web banners to contain the image name and binary data
@@ -168,7 +168,7 @@ class BannerInfo extends Info
      *
      * @var array
      */
-    protected $aImage;
+    public $aImage;
 
     /**
      * An array field for SQL/Web banners to contain the backup image name and binary data
@@ -182,28 +182,28 @@ class BannerInfo extends Info
      *
      * @var array
      */
-    protected $aBackupImage;
+    public $aBackupImage;
 
     /**
      * This field provides any additional comments to be stored.
      *
      * @var string $comments
      */
-    protected $comments;
+    public $comments;
 
     /**
      * This field provides the alt value for SQL/Web/External banners.
      *
      * @var string $alt
      */
-    protected $alt;
+    public $alt;
 
     /**
      * This field provides the filename of the banner.
      *
      * @var string $alt
      */
-    protected $filename;
+    public $filename;
 
     /**
      * This method sets all default values when adding a new banner.

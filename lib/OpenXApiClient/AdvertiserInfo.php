@@ -31,49 +31,49 @@ class AdvertiserInfo extends Info
      *
      * @var integer $advertiserId
      */
-    protected $advertiserId;
+    public $advertiserId;
 
     /**
      * This field contains the ID of the agency account.
      *
      * @var integer $accountId
      */
-    protected $accountId;
+    public $accountId;
 
     /**
      * The agencyID variable is the ID of the agency to which the advertiser is associated.
      *
      * @var integer $agencyId
      */
-    protected $agencyId;
+    public $agencyId;
 
     /**
      * The advertiserName variable is the name of the advertiser.
      *
      * @var string $advertiserName
      */
-    protected $advertiserName;
+    public $advertiserName;
 
     /**
      * The contactName variable is the name of the contact.
      *
      * @var string $contactName
      */
-    protected $contactName;
+    public $contactName;
 
     /**
      * The emailAddress variable is the email address for the contact.
      *
      * @var string $emailAddress
      */
-    protected $emailAddress;
+    public $emailAddress;
 
     /**
      * This field provides any additional comments to be stored.
      *
      * @var string $comments
      */
-    protected $comments;
+    public $comments;
 
     public function getFieldsTypes()
     {

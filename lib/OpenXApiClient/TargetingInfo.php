@@ -29,14 +29,14 @@ class TargetingInfo extends Info
      *
      * @var string
      */
-    protected $logical;
+    public $logical;
 
     /**
      * This is the plugin-component identifier
      *
      * @var string
      */
-    protected $type;
+    public $type;
 
     /**
      * String showing the operation to be applied (e.g.: '==', '!=', '>=',
@@ -44,14 +44,14 @@ class TargetingInfo extends Info
      *
      * @var string
      */
-    protected $comparison;
+    public $comparison;
 
     /**
      * The exact structure varies from component to component
      *
      * @var string
      */
-    protected $data;
+    public $data;
 
     public function getFieldsTypes()
     {

@@ -29,49 +29,49 @@ class UserInfo extends Info
      *
      * @var int
      */
-    protected $userId;
+    public $userId;
 
     /**
      * This option provides the name of the contact for the user.
      *
      * @var string $contactName
      */
-    protected $contactName;
+    public $contactName;
 
     /**
      * This field provides the email address of the user.
      *
      * @var string $emailAddress
      */
-    protected $emailAddress;
+    public $emailAddress;
 
     /**
      * This option provides the username of the user.
      *
      * @var string $username
      */
-    protected $username;
+    public $username;
 
     /**
      * This field provides the password of the user.
      *
      * @var string $password
      */
-    protected $password;
+    public $password;
 
     /**
      * This field provides the default account ID of the user.
      *
      * @var int $defaultAccountId
      */
-    protected $defaultAccountId;
+    public $defaultAccountId;
 
     /**
      * This field provides the status of the user.
      *
      * @var int $active
      */
-    protected $active;
+    public $active;
 
     public function getFieldsTypes()
     {

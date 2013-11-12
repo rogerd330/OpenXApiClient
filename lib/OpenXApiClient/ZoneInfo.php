@@ -32,49 +32,49 @@ class ZoneInfo extends Info
      *
      * @var integer $zoneId
      */
-    protected $zoneId;
+    public $zoneId;
 
     /**
      * The publisherID is the ID of the publisher associated with the zone.
      *
      * @var integer $publisherId
      */
-    protected $publisherId;
+    public $publisherId;
 
     /**
      * The zoneName is the name of the zone.
      *
      * @var string $zoneName
      */
-    protected $zoneName;
+    public $zoneName;
 
     /**
      * The type variable type of zone, one of the following: banner, interstitial, popup, text, email.
      *
      * @var integer $type
      */
-    protected $type;
+    public $type;
 
     /**
      * The width variable is the width of the zone.
      *
      * @var integer $width
      */
-    protected $width;
+    public $width;
 
     /**
      * The height variable is the height of the zone.
      *
      * @var integer $height
      */
-    protected $height;
+    public $height;
 
     /**
      * Frequency capping: total views per user.
      *
      * @var integer $capping
      */
-    protected $capping;
+    public $capping;
 
     /**
      * Frequency capping: total views per period.
@@ -82,35 +82,35 @@ class ZoneInfo extends Info
      *
      * @var integer $sessionCapping
      */
-    protected $sessionCapping;
+    public $sessionCapping;
 
     /**
      * Frequency capping: reset period, in seconds.
      *
      * @var integer $block
      */
-    protected $block;
+    public $block;
 
     /**
      * This field provides any additional comments to be stored.
      *
      * @var string $comments
      */
-    protected $comments;
+    public $comments;
 
     /**
      * This field provides appended code for this zone.
      *
      * @var string $append
      */
-    protected $append;
+    public $append;
 
     /**
      * This field provides the filename of the zone.
      *
      * @var string $prepend
      */
-    protected $prepend;
+    public $prepend;
 
     /**
      * This method sets all default values when adding a new zone.

@@ -30,88 +30,88 @@ class CampaignInfo extends Info
      *
      * @var integer $campaignId
      */
-    protected $campaignId;
+    public $campaignId;
 
     /**
      * The advertiserID variable is the ID of the advertiser associated with the campaign.
      *
      * @var integer $advertiserId
      */
-    protected $advertiserId;
+    public $advertiserId;
 
     /**
      * The campaignName variable is the name of the campaign.
      *
      * @var string $campaignName
      */
-    protected $campaignName;
+    public $campaignName;
 
     /**
      * The startDate variable is the date the campaign will start.
      *
      * @var date $startDate
      */
-    protected $startDate;
+    public $startDate;
 
     /**
      * The endDate variable is the date the campaign will end.
      *
      * @var date $endDate
      */
-    protected $endDate;
+    public $endDate;
 
     /**
      * The impressions variable is the number of impressions booked for the campaign.
      *
      * @var integer $impressions
      */
-    protected $impressions;
+    public $impressions;
 
     /**
      * The clicks variable is the number of clicks booked for the campaign.
      *
      * @var integer $clicks
      */
-    protected $clicks;
+    public $clicks;
 
     /**
      * The priority variable is the priority level set for the campaign.
      *
      * @var integer $priority
      */
-    protected $priority;
+    public $priority;
 
     /**
      * The weight variable is the weight set for the campaign.
      *
      * @var integer $weight
      */
-    protected $weight;
+    public $weight;
 
     /**
      *
      * @var integer $targetImpressions
      */
-    protected $targetImpressions;
+    public $targetImpressions;
 
     /**
      *
      * @var integer $targetClick
      */
-    protected $targetClicks;
+    public $targetClicks;
 
     /**
      *
      * @var integer $targetConversions
      */
-    protected $targetConversions;
+    public $targetConversions;
 
     /**
      * Revenue amount, eg 1.55.
      *
      * @var double $revenue
      */
-    protected $revenue;
+    public $revenue;
 
     /**
      * Revenue type (CPM, CPA, etc) as defined in constants.php.
@@ -119,14 +119,14 @@ class CampaignInfo extends Info
      *
      * @var integer $revenueType
      */
-    protected $revenueType;
+    public $revenueType;
 
     /**
      * Frequency capping: total views per user.
      *
      * @var integer $capping
      */
-    protected $capping;
+    public $capping;
 
     /**
      * Frequency capping: total views per period.
@@ -134,14 +134,14 @@ class CampaignInfo extends Info
      *
      * @var integer $sessionCapping
      */
-    protected $sessionCapping;
+    public $sessionCapping;
 
     /**
      * Frequency capping: reset period, in seconds.
      *
      * @var integer $block
      */
-    protected $block;
+    public $block;
 
 
     /**
@@ -149,7 +149,7 @@ class CampaignInfo extends Info
      *
      * @var string $comments
      */
-    protected $comments;
+    public $comments;
 
     /**
      * This function sets all default values when adding new campaign.

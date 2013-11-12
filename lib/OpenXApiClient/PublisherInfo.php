@@ -32,56 +32,56 @@ class PublisherInfo extends Info
      *
      * @var integer $publisherId
      */
-    protected $publisherId;
+    public $publisherId;
 
     /**
      * This field contains the ID of the agency account.
      *
      * @var integer $accountId
      */
-    protected $accountId;
+    public $accountId;
 
     /**
      * The agencyID variable is the ID of the agency associated with the publisher.
      *
      * @var integer $agencyId
      */
-    protected $agencyId;
+    public $agencyId;
 
     /**
      * The publisherName variable is the name of the publisher.
      *
      * @var string $publisherName
      */
-    protected $publisherName;
+    public $publisherName;
 
     /**
      * The contactName variable is the name of the contact for the publisher.
      *
      * @var string $contactName
      */
-    protected $contactName;
+    public $contactName;
 
     /**
      * The emailAddress variable is the email address for the contact.
      *
      * @var string $emailAddress
      */
-    protected $emailAddress;
+    public $emailAddress;
 
     /**
      * The website variable is the website address of the publisher.
      *
      * @var string $website
      */
-    protected $website;
+    public $website;
 
     /**
      * This field provides any additional comments to be stored.
      *
      * @var string $comments
      */
-    protected $comments;
+    public $comments;
 
     public function getFieldsTypes()
     {
